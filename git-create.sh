@@ -9,5 +9,5 @@ curl -u 'xhban520@gmail.com' https://api.github.com/user/repos -d "{\"name\":\"$
 git init
 git add .
 git commit -am'first init'
-git remote add origin "https://github.com/your_github_username/$repo_name.git"
+git remote add origin "https://github.com/bob-token/$repo_name.git"
 git push origin master
